@@ -1,10 +1,10 @@
 {
-  "Version": "3.0.0",
+  "Version": "4.0.0",
   "ReleaseNotes": "Nova Atualização Disponível",
   "UrlUpdate": "https://raw.githubusercontent.com/Bil3996/Bil3996/main/Atualiza%C3%A7%C3%A3o%20http",
   "Sms": "https://raw.githubusercontent.com/Bil3996/Bil3996/main/SMS%20http",
   "EmailFeedback": "apolossh@gmail.com",
-  "UrlContato": "https://wa.me/5511973828136",
+  "UrlContato": "https://t.me/apolo_vx",
   "UrlTermos": "https://kiritosshxd.github.io/Conecta4g_site/termos.html",
   "CheckUser": "true",
   "Udp": [
