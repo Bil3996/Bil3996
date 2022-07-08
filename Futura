@@ -1,6 +1,6 @@
 
  {
-"Version": "35.0.0",
+"Version": "36.0.0",
   "ReleaseNotes": "Nova Atualização Disponível",
   "UrlUpdate": "https://raw.githubusercontent.com/Bil3996/Bil3996/main/Futura",
   "Sms": "https://raw.githubusercontent.com/hiadalS",
@@ -18,7 +18,7 @@
         "Name": "Servidor BR",
       "TYPE": "premium",
       "FLAG": "br.png",
-      "ServerIP": "http://futura777.win",
+      "ServerIP": "futura777.win",
       "CheckUser": "http://149.56.7.253:8080/checkUser",
       "ServerPort": "22",
       "SSLPort": "443",
