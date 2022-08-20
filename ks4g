@@ -18,7 +18,7 @@
       "TYPE": "premium",
       "FLAG": "br.png",
       "ServerIP": "pj.iosmatrix.xyz",
-      "CheckUser": "",
+      "CheckUser": "http://144.22.243.20:5454/checkUser",
       "ServerPort": "80",
       "SSLPort": "443",
       "USER": "",
