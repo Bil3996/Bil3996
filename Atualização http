@@ -1,5 +1,5 @@
 {
-  "Version": "20.0.0",
+  "Version": "21.0.0",
   "ReleaseNotes": "🇧🇷Novas servidores grátis disponíveis :), atualize para se manter conectado (a)!",
   "UrlUpdate": "https://raw.githubusercontent.com/Bil3996/Bil3996/main/Atualiza%C3%A7%C3%A3o%20http",
   "Sms": "",
@@ -239,6 +239,16 @@
           "ProxyIP": "",
           "ProxyPort": "",
           "Info": "Tlsws"
+    },
+    {
+      "Name": "🔴CLARO🔴CLOUD",
+      "FLAG": "claro",
+      "Payload": "GET / HTTP/1.1[crlf]Host: d14hyd8q50nxo1.cloudfront.net[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "d14hyd8q50nxo1.cloudfront.net",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
     },
     {
       "Name": "OI ULTRA",
