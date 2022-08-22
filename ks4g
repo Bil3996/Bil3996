@@ -1,5 +1,5 @@
 {
-  "Version": "26.0.0",
+  "Version": "27.0.0",
   "ReleaseNotes": "🇧🇷Novas servidores grátis disponíveis :), atualize para se manter conectado (a)!",
   "UrlUpdate": "https://raw.githubusercontent.com/Bil3996/Bil3996/main/ks4g",
   "Sms": "",
@@ -18,7 +18,7 @@
       "TYPE": "premium",
       "FLAG": "br.png",
       "ServerIP": "pj.iosmatrix.xyz",
-      "CheckUser": "",
+      "CheckUser": "http://144.22.243.20:5454/checkUser",
       "ServerPort": "80",
       "SSLPort": "443",
       "USER": "",
