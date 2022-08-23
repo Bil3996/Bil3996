@@ -1,1 +1,50 @@
-Jabdjskxjsk
+{
+  "Version": "2.0.0",
+  "ReleaseNotes": "Nova Atualização Disponível",
+  "UrlUpdate": "https://raw.githubusercontent.com/Bil3996/Bil3996/main/Sonic%20vivo%20e%20claro",
+  "Sms": "",
+  "EmailFeedback": "",
+  "UrlContato": "",
+  "UrlTermos": "",
+  "CheckUser": "true",
+  "Udp": [
+    {
+      "Porta": "7300"
+    }
+  ],
+  "Servers": [
+    {
+      "Name": "PREMIUM | ",
+      "TYPE": "premium",
+      "FLAG": "br.png",
+      "ServerIP": "md.sandrobr.online",
+      "CheckUser": "http://209.14.136.253:5454/checkUser",    
+      "ServerPort": "22",
+      "SSLPort": "443",
+      "USER": "",
+      "PASS": ""
+    }
+  ],
+  "Networks": [
+    {
+      "Name": "VIVO FRONT",
+      "FLAG": "vivo",
+      "Payload": "GET / HTTP/1.1[crlf]Host:  d2yh6q280sqqyb.cloudfront.net[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "md.sandrobr.online",
+      "ProxyIP": "recarga.vivo.com.br",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+       },
+  {
+   "Name": "CLARO",
+   "FLAG": "claro",
+   "Payload": "GET / HTTP/1.1[crlf]Host: d2yh6q280sqqyb.cloudfront.net[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+      "SNI": "d3awytnmmfk53d.cloudfront.net",
+      "TlsIP": "d3awytnmmfk53d.cloudfront.net",
+      "ProxyIP": "",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
+    }
+   ]
+  }
