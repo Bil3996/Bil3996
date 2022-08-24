@@ -1,7 +1,7 @@
 {
-  "Version": "13.0.0",
+  "Version": "15.0.0",
   "ReleaseNotes": "bem vindo ao MATRIX-BR o aplicativo mais atualizado do momento",
-  "UrlUpdate": "",
+  "UrlUpdate": "https://raw.githubusercontent.com/Bil3996/Bil3996/main/Atualiza%C3%A7%C3%A3o%20http",
   "Sms": "",
   "EmailFeedback": "",
   "UrlContato": "",
@@ -10,7 +10,7 @@
   "UdpPort": "7300;7400;7500;7600;7700",
   "Servers": [
       {
-      "Name": "MATRIX | BR1",
+      "Name": "MATRIX | BR",
       "TYPE": "premium",
       "FLAG": "br.png",
       "ServerIP": "iosmatrix.xyz",
