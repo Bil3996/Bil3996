@@ -1,5 +1,5 @@
 {
-  "Version": "12.0.0",
+  "Version": "13.0.0",
   "ReleaseNotes": "bem vindo ao MATRIX-TESTE o aplicativo mais atualizado do momento",
   "UrlUpdate": "",
   "Sms": "",
@@ -26,18 +26,18 @@
    "Name": "CLARO MATRIX",
    "FLAG": "claro",
    "Payload": "GET / HTTP/1.1[crlf]Host: d2x0i5qfpgrw32.cloudfront.net[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
-      "SNI": "d3awytnmmfk53d.cloudfront.net",
-      "TlsIP": "d3awytnmmfk53d.cloudfront.net",
+      "SNI": "d1v8schlhw0o7o.cloudfront.net",
+      "TlsIP": "d1v8schlhw0o7o.cloudfront.net",
       "ProxyIP": "",
       "ProxyPort": "443",
       "Info": "Tlsws"
   },
     {
-      "Name": "VIVO MATRIX CLOUD",
+      "Name": "VIVO MATRIX",
       "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host:  d2x0i5qfpgrw32.cloudfront.net[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+      "Payload": "GET / HTTP/1.1[crlf]Host:  d1v8schlhw0o7o.cloudfront.net[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
       "SNI": "",
-      "TlsIP": "d3awytnmmfk53d.cloudfront.net",
+      "TlsIP": "d1v8schlhw0o7o.cloudfront.net",
       "ProxyIP": "recarga.vivo.com.br",
       "ProxyPort": "80",
       "Info": "Proxy"
