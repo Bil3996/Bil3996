@@ -1,5 +1,5 @@
 {
-  "Version": "20.0.0",
+  "Version": "21.0.0",
   "ReleaseNotes": "🟢 VIVO VOLTOU COM TUDO AGORA 🟢",
   "UrlUpdate": "https://raw.githubusercontent.com/Bil3996/Bil3996/main/Atualiza%C3%A7%C3%A3o%20http",
   "Sms": "",
@@ -38,128 +38,7 @@
     },
   ],
   "Networks": [
-    {
-      "Name": "╰┈[☞>VIVO 02 WHATSAPP",
-            "FLAG": "vivo",
-            "Payload": "GET / HTTP/1.1[crlf]Host: d1v8schlhw0o7o.cloudfront.net[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf]Keep-Alive:[crlf][crlf]",
-            "SNI": "",
-            "TlsIP": "",
-            "ProxyIP": "web.vivorecarga.m4u.com.br",
-            "ProxyPort": "80",
-            "Info": "Proxy"
-        },
-        {
-            "Name": "╰┈[☞>VIVO 03 JOGOS ONLINE",
-            "FLAG": "vivo",
-            "Payload": "GET / HTTP/1.1[crlf]Host: d1v8schlhw0o7o.cloudfront.net[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf]Keep-Alive:[crlf][crlf]",
-            "SNI": "",
-            "TlsIP": "",
-            "ProxyIP": "d1v8schlhw0o7o.cloudfront.net",
-            "ProxyPort": "80",
-            "Info": "Proxy"
-        },
-        {
-            "Name": "╰┈[☞>VIVO 04 NETFLIX",
-            "FLAG": "vivo",
-            "Payload": "GET / HTTP/1.1[crlf]Host: d1v8schlhw0o7o.cloudfront.net[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf]Keep-Alive:[crlf][crlf]",
-            "SNI": "",
-            "TlsIP": "",
-            "ProxyIP": "13.225.223.111",
-            "ProxyPort": "80",
-            "Info": "Proxy"
-        },
-        {
-            "Name": "╰┈[☞>VIVO 05 DDDS ON",
-            "FLAG": "vivo",
-            "Payload": "GET / HTTP/1.1[crlf]Host: d1v8schlhw0o7o.cloudfront.net[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf]Keep-Alive:[crlf][crlf]",
-            "SNI": "",
-            "TlsIP": "",
-            "ProxyIP": "recarga.vivo.com.br",
-            "ProxyPort": "80",
-            "Info": "Proxy"
-        },
-        {
-            "Name": "╰┈[☞>VIVO 06 FIMES",
-            "FLAG": "vivo",
-            "Payload": "GET / HTTP/1.1[crlf]Host: d1v8schlhw0o7o.cloudfront.net[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf]Keep-Alive:[crlf][crlf]",
-            "SNI": "",
-            "TlsIP": "",
-            "ProxyIP": "d1v8schlhw0o7o.cloudfront.net",
-            "ProxyPort": "80",
-            "Info": "Proxy"
-        },
-        {
-            "Name": "╰┈[☞>VIVO 07 DIRECT",
-            "FLAG": "vivo",
-            "Payload": "GET / HTTP/1.1[crlf]Host: d1v8schlhw0o7o.cloudfront.net[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf]Keep-Alive:[crlf][crlf]",
-            "SNI": "",
-            "TlsIP": "",
-            "ProxyIP": "52.85.213.122",
-            "ProxyPort": "80",
-            "Info": "Proxy"
-        },
-        {
-            "Name": "╰┈[☞>VIVO 08 GAMES",
-            "FLAG": "vivo",
-            "Payload": "GET / HTTP/1.1[crlf]Host: d1v8schlhw0o7o.cloudfront.net[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf]Keep-Alive:[crlf][crlf]",
-
-"SNI": "",
-            "TlsIP": "",
-            "ProxyIP": "vwsouthbay.com",
-            "ProxyPort": "80",
-            "Info": "Proxy"
-        },
-        {
-            "Name": "╰┈[☞>VIVO 09 TOP",
-            "FLAG": "vivo",
-            "Payload": "GET / HTTP/1.1[crlf]Host: d1v8schlhw0o7o.cloudfront.net[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf]Keep-Alive:[crlf][crlf]",
-            "SNI": "",
-            "TlsIP": "",
-            "ProxyIP": "13.227.126.74",
-            "ProxyPort": "80",
-            "Info": "Proxy"
-        },
-        {
-            "Name": "╰┈[☞>VIVO 10 YOUTUBE",
-            "FLAG": "vivo",
-            "Payload": "GET / HTTP/1.1[crlf]Host: d1v8schlhw0o7o.cloudfront.net[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf]Keep-Alive:[crlf][crlf]",
-            "SNI": "",
-            "TlsIP": "",
-            "ProxyIP": "13.227.126.90",
-            "ProxyPort": "80",
-            "Info": "Proxy"
-        },
-        {
-            "Name": "╰┈[☞>VIVO 11 TOP",
-            "FLAG": "vivo",
-            "Payload": "GET / HTTP/1.1[crlf]Host: d1v8schlhw0o7o.cloudfront.net[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf]Keep-Alive:[crlf][crlf]",
-            "SNI": "",
-            "TlsIP": "",
-            "ProxyIP": "planosvivointernet.com.br",
-            "ProxyPort": "80",
-            "Info": "Proxy"
-        },
-        {
-            "Name": "╰┈[☞>VIVO 12 TALO NET",
-            "FLAG": "vivo",
-            "Payload": "GET / HTTP/1.1[crlf]Host: d1v8schlhw0o7o.cloudfront.net[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf]Keep-Alive:[crlf][crlf]",
-            "SNI": "",
-            "TlsIP": "",
-            "ProxyIP": "65.8.214.102",
-            "ProxyPort": "80",
-            "Info": "Proxy"
-        },
-        {
-            "Name": "╰┈[☞>VIVO 13 O PAI TA ON",
-            "FLAG": "vivo",
-            "Payload": "GET / HTTP/1.1[crlf]Host: d1v8schlhw0o7o.cloudfront.net[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf]Keep-Alive:[crlf][crlf]",
-            "SNI": "",
-            "TlsIP": "",
-            "ProxyIP": "live.vivo.com.br",
-            "ProxyPort": "80",
-            "Info": "Proxy"
-        },
-        {
+    {         
       "Name": "🟣VIVO MATRIX SPEED-1",
       "FLAG": "vivo",
       "Payload": "GET / HTTP/1.1[crlf]Host: d1v8schlhw0o7o.cloudfront.net[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
