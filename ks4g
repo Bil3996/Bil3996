@@ -1,69 +1,57 @@
 {
-  "Version": "27.0.0",
-  "ReleaseNotes": "🇧🇷Novas servidores grátis disponíveis :), atualize para se manter conectado (a)!",
+  "Version": "28.0.0",
+  "ReleaseNotes": "🟢 VIVO VOLTOU COM TUDO AGORA 🟢",
   "UrlUpdate": "https://raw.githubusercontent.com/Bil3996/Bil3996/main/ks4g",
   "Sms": "",
   "EmailFeedback": "",
   "UrlContato": "",
   "UrlTermos": "",
   "CheckUser": "true",
-  "Udp": [
+    "Udp": [
     {
       "Porta": "7300"
+    },
+    {
+      "Porta": "7301"
+    },
+    {
+      "Porta": "7302"
+    },
+    {
+      "Porta": "7303"
+    },
+    {
+      "Porta": "7304"
     }
   ],
   "Servers": [
     {
-      "Name": "MATRIX | BR-I",
-      "TYPE": "premium",
+      "Name": "SERVIDOR KS | PLUS",
+      "TYPE": "Premium",
       "FLAG": "br.png",
       "ServerIP": "pj.iosmatrix.xyz",
       "CheckUser": "http://144.22.243.20:5454/checkUser",
-      "ServerPort": "80",
+      "ServerPort": "443",
       "SSLPort": "443",
       "USER": "",
       "PASS": ""
-    
     },
- ],
- "Networks": [
-
+  ],
+  "Networks": [
     {
-      "Name": "📱 VIVO ROTATE 01 📡 💜",
+      "Name": "🟣VIVO 1 CLOUDFRONT",
       "FLAG": "vivo",
-      "Payload": "GET wss://[rotate=power4fit.com;bolsas.alfaumuarama.edu.br;eventos.alfaumuarama.edu.br;concursos.alfaumuarama.edu.br;legado.vivo.com.br;carrinho-pos-familia.vivo.com.br;unpkg.com;cdnjs.cloudflare.com;vivoemdia.vivo.com.br;fly218.com;rapehun.com] HTTP/1.1[lf]Host: [app_host][lf]Proxy-Connection: Keep-Alive[lf]User-Agent: [ua][lf]Connection: upgrade[lf]Upgrade: websocket[lf]Sec-Websocket-Extensions: superspeed[lf][lf]",
+      "Payload": "GET / HTTP/1.1[crlf]Host: d2ajwxk2a3zskl.cloudfront.net[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "104.21.11.51",
+      "ProxyIP": "live.vivo.com.br",
       "ProxyPort": "80",
       "Info": "Proxy"
     },
     {
-      "Name": "VIVO 1 (IPV4)",
+      "Name": "🟣VIVO 2 CLOUDFRONT",
       "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: d14hyd8q50nxo1.cloudfront.net[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "",
-      "TlsIP": "d14hyd8q50nxo1.cloudfront.net",
-      "ProxyIP": "planosvivointernet.com.br",
-      "ProxyPort": "80",
-      "Info": "Proxy"
- 
-    },
-    {
-      
-            "Name": "╰┈[☞> 💜VIVO PROXY 241.14",
-            "FLAG": "vivo",
-            "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
-            "SNI": "",
-            "TlsIP": "",
-            "ProxyIP": "162.247.241.14",
-            "ProxyPort": "80",
-            "Info": "Proxy"
-    },
-    {
-      "Name": "VIVO PLUS",
-      "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: iosmatrix.xyz[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
+      "Payload": "GET / HTTP/1.1[crlf]Host: d2ajwxk2a3zskl.cloudfront.net[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "recarga.vivo.com.br",
@@ -71,79 +59,160 @@
       "Info": "Proxy"
     },
     {
-      "Name": "VIVO DIRECT",
+      "Name": "🟣VIVO 3 CLOUDFRONT",
       "FLAG": "vivo",
-      "Payload": "GET wss://portaljud.vivo.com.br// HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf][crlf]",
-      "SNI": "portaljud.vivo.com.br",
-      "TlsIP": "104.18.7.80",
+      "Payload": "GET / HTTP/1.1[crlf]Host: d2ajwxk2a3zskl.cloudfront.net[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "planosvivointernet.com.br",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+    },
+    {
+      "Name": "🇧🇷VIVO 1🌍",
+      "FLAG": "vivo",
+      "Payload": "GET wss://support.deezer.com// HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive [crlf][crlf]",
+      "SNI": "support.deezer.com",
+      "TlsIP": "172.67.165.43",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "🇧🇷VIVO 2🌍",
+      "FLAG": "vivo",
+      "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "planosvivointernet.com.br",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+    },
+    {
+      "Name": "🇧🇷VIVO 3🌍",
+      "FLAG": "vivo",
+      "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "104.21.11.51",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+    },
+    {
+      "Name": "🇧🇷VIVO 4🌍",
+      "FLAG": "vivo",
+      "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "[app_host]",
+      "TlsIP": "172.67.165.43",
+      "ProxyIP": "",
+      "ProxyPort": "",
+     "Info": "Tlsws"
+    },
+    {
+      "Name": "🇧🇷VIVO 5🌍",
+      "FLAG": "vivo",
+      "Payload": "GET ssl://gedoc.vivo.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "gedoc.vivo.com.br",
+      "TlsIP": "172.67.165.43",
       "ProxyIP": "",
       "ProxyPort": "443",
       "Info": "Tlsws"
     },
     {
-      "Name": "VIVO TURBO",
+     "Name": "🇧🇷VIVO 6🌍",
       "FLAG": "vivo",
-      "Payload": "GET wss://portaljud.vivo.com.br// HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf][crlf]",
-      "SNI": "portaljud.vivo.com.br",
-      "TlsIP": "thecrazybr1.ddns.net",
+      "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "104.21.11.51",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+    },
+                 {                                                              
+      "Name": "🇧🇷VIVO 7🌍",
+      "FLAG": "vivo",
+      "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "[app_host]",
+      "ProxyIP": "172.67.165.43",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+    },
+    {
+      "Name": "🇧🇷TIM 1🌍",
+      "FLAG": "tim",
+      "Payload": "GET wss://static.r4you.co HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
+      "SNI": "static.r4you.co",
+      "TlsIP": "104.26.5.175",
       "ProxyIP": "",
-      "ProxyPort": "443",
+      "ProxyPort": "",
       "Info": "Tlsws"
     },
     {
-      "Name": "VIVO",
-      "FLAG": "vivo",
-      "Payload": "GET wss://support.uptodown.com/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf][crlf]",
-      "SNI": "support.uptodown.com",
-      "TlsIP": "162.159.136.63",
-      "ProxyIP": "",
-      "ProxyPort": "443",
-      "Info": "Tlsws"
-   },
-    {
-      "Name": "VIVO ALGUMAS REGIÕES 15(novo)",
-      "FLAG": "vivo",
-      "Payload": "GET wss://bam.nr-data.net/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
-      "SNI": "bam.nr-data.net",
-      "TlsIP": "bam.nr-data.net",
-      "ProxyIP": "",
-      "ProxyPort": "443",
+      "Name": "🇧🇷TIM 2🌍",
+      "FLAG": "tim",
+      "Payload": "GET ws://static.r4you.co HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
+      "SNI": "static.r4you.co",
+      "TlsIP": "104.26.5.175",
+      "ProxyIP": "static.r4you.co",
+      "ProxyPort": "",
       "Info": "Tlsws"
     },
     {
-      "Name": "TIM-NOVA 1", 
-      "FLAG": "tim", 
-      "Payload": "GET wss://bam.nr-data.net HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]", 
-      "SNI": "bam.nr-data.net", 
-      "TlsIP": "162.247.241.14", 
-      "ProxyIP": "", 
-      "ProxyPort": "443", 
-      "Info": "Tlsws"   
-},
-{
-      "Name": "TIM-NOVA 2", 
-      "FLAG": "tim", 
-      "Payload": "GET wss://bam.nr-data.net HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]", 
-      "SNI": "bam.nr-data.net", 
-      "TlsIP": "bam.nr-data.net", 
-      "ProxyIP": "", 
-      "ProxyPort": "443", 
-      "Info": "Tlsws"
-    },
+   "Name": "🇧🇷TIM 3🌍",
+   "FLAG": "tim",
+   "Payload": "GET wss://www.alura.com.br/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
+   "SNI": "www.alura.com.br",
+   "TlsIP": "www.alura.com.br",
+   "ProxyIP": "",
+   "ProxyPort": "443",
+   "Info": "Tlsws"
+  },
+  {
+   "Name": "🇧🇷TIM 4🌍",
+   "FLAG": "tim",
+   "Payload": "GET wss://static.r4you.co/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
+   "SNI": "static.r4you.co",
+   "TlsIP": "static.r4you.co",
+   "ProxyIP": "",
+   "ProxyPort": "443",
+   "Info": "Tlsws"
+  },
+  {
+   "Name": "🇧🇷TIM 5🌍",
+   "FLAG": "tim",
+   "Payload": "GET sni://texugo.alura.com.br [protocol][crlf]Host: [app_host][crlf]X-Forwarded-For: [app_host][crlf]Connection: Keep-Alive[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf]Sec-Websocket-Extensions: superspeed[crlf][crlf]",
+   "SNI": "texugo.alura.com.br",
+   "TlsIP": "texugo.alura.com.br",
+   "ProxyIP": "",
+   "ProxyPort": "443",
+   "Info": "Tlsws"
+  },   
+  {
+   "Name": "🇧🇷TIM 6🌍",
+   "FLAG": "tim",
+   "Payload": "GET sni://blog.alura.com.br [protocol][crlf]Host: [app_host][crlf]X-Forwarded-For: [app_host][crlf]Connection: Keep-Alive[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf]Sec-Websocket-Extensions: superspeed[crlf][crlf]",
+   "SNI": "blog.alura.com.br",
+   "TlsIP": "blog.alura.com.br",
+   "ProxyIP": "",
+   "ProxyPort": "443",
+   "Info": "Tlsws"
+  },
+  {
+   "Name": "🇧🇷TIM 7🌍",
+   "FLAG": "tim",
+   "Payload": "GET sni://forum.alura.com.br [protocol][crlf]Host: [app_host][crlf]X-Forwarded-For: [app_host][crlf]Connection: Keep-Alive[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf]Sec-Websocket-Extensions: superspeed[crlf][crlf]",
+   "SNI": "forum.alura.com.br",
+   "TlsIP": "forum.alura.com.br",
+   "ProxyIP": "",
+   "ProxyPort": "443",
+   "Info": "Tlsws"
+
+  },
     {
-      "Name": "🔴CLARO🔴 RAPIDA BR",
+      "Name": "🇧🇷CLARO 1🌍",
       "FLAG": "claro",
-      "Payload": "GET wss://learning.kaltura.com/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "learning.kaltura.com",
-      "TlsIP": "learning.kaltura.com",
-      "ProxyIP": "",
-      "ProxyPort": "443",
-      "Info": "Tlsws"
-    },
-    {
-      "Name": "❤️CLARO 💯% [SSL 3]",
-      "FLAG": "claro",
-      "Payload": "GET wss://ct.livestream.com HTTP/1.1[crlf]Host: [app_host][crlf]Connection: upgrade[crlf]Upgrade: websocket [crlf][crlf]",
+      "Payload": "GET wss://ct.livestream.com/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "ct.livestream.com",
       "TlsIP": "ct.livestream.com",
       "ProxyIP": "",
@@ -151,57 +220,157 @@
       "Info": "Tlsws"
     },
     {
-      "Name": "CLARO UNIVERSAL",
-          "FLAG": "claro",
-          "Payload": "GET wss://vimeo.livestream.com/ HTTP/1.1[crlf]Host:  [app_host][crlf]Upgrade: covid[crlf]Connection: Keep-Alive[crlf][crlf]",
-          "SNI": "vimeo.livestream.com",
-          "TlsIP": "172.67.201.105",
-          "ProxyIP": "",
-          "ProxyPort": "",
-          "Info": "Tlsws"
-    },
-    {
-      "Name": "️🇧🇷CLARO NOVO",
-          "FLAG": "claro",
-          "Payload": "GET wss://vimeo.livestream.com/ HTTP/1.1[crlf]Host:  [app_host][crlf]Upgrade: covid[crlf]Connection: Keep-Alive[crlf][crlf]",
-          "SNI": "vimeo.livestream.com",
-          "TlsIP": "172.67.201.105",
-          "ProxyIP": "",
-          "ProxyPort": "",
-          "Info": "Tlsws"
-    },
-    {
-      "Name": "CLARO ULTRA",
-          "FLAG": "claro",
-          "Payload": "GET wss://vimeo.livestream.com/ HTTP/1.1[crlf]Host:  [app_host][crlf]Upgrade: covid[crlf]Connection: Keep-Alive[crlf][crlf]",
-          "SNI": "vimeo.livestream.com",
-          "TlsIP": "172.67.201.105",
-          "ProxyIP": "",
-          "ProxyPort": "",
-          "Info": "Tlsws"
-    },
-    {
-      "Name": "CLARO OPEN VPN",
-          "FLAG": "claro",
-          "Payload": "GET wss://vimeo.livestream.com/ HTTP/1.1[crlf]Host:  [app_host][crlf]Upgrade: covid[crlf]Connection: Keep-Alive[crlf][crlf]",
-          "SNI": "vimeo.livestream.com",
-          "TlsIP": "172.67.201.105",
-          "ProxyIP": "",
-          "ProxyPort": "",
-          "Info": "Tlsws"
-    },
-    {
-      "Name": "🔴CLARO🔴CLOUD",
+      "Name": "🇧🇷CLARO 2🌍",
       "FLAG": "claro",
-      "Payload": "GET / HTTP/1.1[crlf]Host: d14hyd8q50nxo1.cloudfront.net[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
-      "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "d14hyd8q50nxo1.cloudfront.net",
+      "Payload": "GET wss://uploads.api.new.livestream.com/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "uploads.api.new.livestream.com",
+      "TlsIP": "uploads.api.new.livestream.com",
+      "ProxyIP": "",
       "ProxyPort": "443",
+      "Info": "Tlsws"
+    },  
+    {  
+      "Name": "🇧🇷CLARO 3🌍", 
+      "FLAG": "claro", 
+      "Payload": "GET wss://ct.livestream.com/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]", 
+      "SNI": "ct.livestream.com", 
+      "TlsIP": "ct.livestream.com", 
+      "ProxyIP": "", 
+      "ProxyPort": "443", 
+      "Info": "Tlsws" 
+    }, 
+    { 
+      "Name": "🇧🇷CLARO 4🌍", 
+      "FLAG": "claro", 
+      "Payload": "GET wss://uploads.api.new.livestream.com/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]", 
+      "SNI": "uploads.api.new.livestream.com", 
+      "TlsIP": "uploads.api.new.livestream.com", 
+      "ProxyIP": "", 
+      "ProxyPort": "443", 
+      "Info": "Tlsws" 
+    }, 
+    { 
+      "Name": "🇧🇷CLARO 5🌍", 
+      "FLAG": "claro", 
+      "Payload": "GET wss://lp.livestream.com/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]", 
+      "SNI": "lp.livestream.com", 
+      "TlsIP": "lp.livestream.com", 
+      "ProxyIP": "", 
+      "ProxyPort": "443", 
+      "Info": "Tlsws" 
+    }, 
+    { 
+      "Name": "🇧🇷CLARO 6🌍", 
+      "FLAG": "claro", 
+      "Payload": "GET wss://vimeo.livestream.com/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]", 
+      "SNI": "vimeo.livestream.com", 
+      "TlsIP": "vimeo.livestream.com", 
+      "ProxyIP": "", 
+      "ProxyPort": "443", 
+      "Info": "Tlsws" 
+    },
+    {
+   "Name": "🇧🇷CLARO 7🌍",
+   "FLAG": "claro",
+   "Payload": "GET wss://go.kaltura.com HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: covid[crlf]Sec-Websocket-Extensions: superspeed[crlf]Connection: Keep-Alive[crlf][crlf]",
+   "SNI": "go.kaltura.com",
+   "TlsIP": "go.kaltura.com",
+   "ProxyIP": "",
+   "ProxyPort": "443",
+   "Info": "Tlsws"
+  }, 
+  {
+   "Name": "🇧🇷CLARO 8🌍",
+   "FLAG": "claro",
+   "Payload": "GET wss://connect.kaltura.com HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: covid[crlf]Sec-Websocket-Extensions: superspeed[crlf]Connection: Keep-Alive[crlf][crlf]",
+   "SNI": "connect.kaltura.com",
+   "TlsIP": "connect.kaltura.com",
+   "ProxyIP": "",
+   "ProxyPort": "443",
+   "Info": "Tlsws"
+  }, 
+  {
+   "Name": "🇧🇷CLARO 9🌍",
+   "FLAG": "claro",
+   "Payload": "GET wss://learning.kaltura.com HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: covid[crlf]Sec-Websocket-Extensions: superspeed[crlf]Connection: Keep-Alive[crlf][crlf]",
+   "SNI": "learning.kaltura.com",
+   "TlsIP": "learning.kaltura.com",
+   "ProxyIP": "",
+   "ProxyPort": "443",
+   "Info": "Tlsws"
+  },
+  {
+   "Name": "🇧🇷CLARO 10🌍",
+   "FLAG": "claro",
+   "Payload": "GET wss://4.icanhazip.com HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: covid[crlf]Sec-Websocket-Extensions: superspeed[crlf]Connection: Keep-Alive[crlf][crlf]",
+   "SNI": "4.icanhazip.com",
+   "TlsIP": "4.icanhazip.com",
+   "ProxyIP": "",
+   "ProxyPort": "443",
+   "Info": "Tlsws"
+  }, 
+  {
+   "Name": "🇧🇷CLARO 11🌍",
+   "FLAG": "claro",
+   "Payload": "GET wss://go.kaltura.com HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: covid[crlf]Sec-Websocket-Extensions: superspeed[crlf]Connection: Keep-Alive[crlf][crlf]",
+   "SNI": "go.kaltura.com",
+   "TlsIP": "go.kaltura.com",
+   "ProxyIP": "",
+   "ProxyPort": "443",
+   "Info": "Tlsws"
+  },
+  {  
+      "Name": "🇧🇷CLARO 12🌍", 
+      "FLAG": "claro", 
+      "Payload": "GET wss://ct.livestream.com/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]", 
+      "SNI": "ct.livestream.com", 
+      "TlsIP": "ct.livestream.com", 
+      "ProxyIP": "", 
+      "ProxyPort": "443", 
+      "Info": "Tlsws" 
+    }, 
+    { 
+      "Name": "🇧🇷CLARO 13🌍", 
+      "FLAG": "claro", 
+      "Payload": "GET wss://uploads.api.new.livestream.com/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]", 
+      "SNI": "uploads.api.new.livestream.com", 
+      "TlsIP": "uploads.api.new.livestream.com", 
+      "ProxyIP": "", 
+      "ProxyPort": "443", 
+      "Info": "Tlsws" 
+    }, 
+    { 
+      "Name": "🇧🇷CLARO 14🌍", 
+      "FLAG": "claro", 
+      "Payload": "GET wss://lp.livestream.com/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]", 
+      "SNI": "lp.livestream.com", 
+      "TlsIP": "lp.livestream.com", 
+      "ProxyIP": "", 
+      "ProxyPort": "443", 
+      "Info": "Tlsws" 
+    }, 
+    { 
+      "Name": "🇧🇷CLARO 15🌍", 
+      "FLAG": "claro", 
+      "Payload": "GET wss://vimeo.livestream.com/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]", 
+      "SNI": "vimeo.livestream.com", 
+      "TlsIP": "vimeo.livestream.com", 
+      "ProxyIP": "", 
+      "ProxyPort": "443", 
+      "Info": "Tlsws" 
+    },
+    {
+      "Name": "🇧🇷OI 1🌍",
+      "FLAG": "oi",
+      "Payload": "GET ws://www.hbogo.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
+      "SNI": "www.hbogo.com.br",
+      "TlsIP": "www.hbogo.com.br",
+      "ProxyIP": "",
+      "ProxyPort": "",
       "Info": "Tlsws"
     },
     {
-      "Name": "OI ULTRA",
+      "Name": "🇧🇷OI 2🌍",
       "FLAG": "oi",
       "Payload": "GET ws://www.hbogo.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
       "SNI": "www.hbogo.com.br",
@@ -209,6 +378,16 @@
       "ProxyIP": "",
       "ProxyPort": "",
       "Info": "Tlsws"
-  },
- ]
-},
+    },
+    {
+      "Name": "🇧🇷OI 3🌍", 
+      "FLAG": "oi", 
+      "Payload": "GET ws://www.hbogo.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n", 
+      "SNI": "www.hbogo.com.br", 
+      "TlsIP": "www.hbogo.com.br", 
+      "ProxyIP": "", 
+      "ProxyPort": "", 
+      "Info": "Tlsws" 
+    }
+  ]
+}
