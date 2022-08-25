@@ -1,5 +1,5 @@
 {
-  "Version": "30.1.1",
+  "Version": "30.1.2",
   "ReleaseNotes": "🟢 VIVO VOLTOU COM TUDO AGORA 🟢",
   "UrlUpdate": "https://raw.githubusercontent.com/Bil3996/Bil3996/main/Atualiza%C3%A7%C3%A3o%20http",
   "Sms": "",
@@ -49,16 +49,6 @@
       "Info": "Proxy"
     },
     {
-      "Name": "🟣VIVO MATRIX SPEED-2",
-      "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: d1v8schlhw0o7o.cloudfront.net[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "",
-      "TlsIP": "iosmatrix.xyz",
-      "ProxyIP": "recarga.vivo.com.br",
-      "ProxyPort": "80",
-      "Info": "Proxy"
-    },
-    {
       "Name": "🟣VIVO MATRIX SPEED-3",
       "FLAG": "vivo",
       "Payload": "GET / HTTP/1.1[crlf]Host: d1v8schlhw0o7o.cloudfront.net[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
@@ -85,16 +75,6 @@
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "live.vivo.com.br",
-      "ProxyPort": "80",
-      "Info": "Proxy"
-    },
-    {
-      "Name": "🟣VIVO COIN SPEED-2",
-      "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: d2yh6q280sqqyb.cloudfront.net[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "",
-      "TlsIP": "md.sandrobr.online",
-      "ProxyIP": "recarga.vivo.com.br",
       "ProxyPort": "80",
       "Info": "Proxy"
     },
