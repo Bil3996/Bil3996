@@ -237,8 +237,7 @@
    "ProxyIP": "",
    "ProxyPort": "443",
    "Info": "Tlsws"
-
-  },
+    },
     {
       "Name": "🇧🇷CLARO 1🌍",
       "FLAG": "claro",
